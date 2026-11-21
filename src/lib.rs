@@ -4,6 +4,9 @@
 //! Real implementation: cores, events, validation, deterministic storage.
 //! Replaces the placeholder stub.
 
+/// Security management module (firewall rules, policies, access control).
+pub mod sigmasecuritymanager;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
